@@ -24028,10 +24028,16 @@ var _react = _interopRequireDefault(require("react"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Pet = function Pet(props) {
+  // return (
+  //   <div className="lol" id="my-id">
+  //     <h1>{props.name}</h1>
+  //     <h1>{props.animal}</h1>
+  //     <h1>{props.breed} </h1>
+  //   </div>
+  // );
   return _react.default.createElement("div", {
-    className: "lol",
     id: "my-id"
-  }, _react.default.createElement("h1", null, props.name), _react.default.createElement("h1", null, props.animal), _react.default.createElement("h1", null, props.breed, " "));
+  }, _react.default.createElement("h1", null, props.name), _react.default.createElement("h1", null, props.animal), _react.default.createElement("h1", null, props.breed));
 };
 
 exports.Pet = Pet;
